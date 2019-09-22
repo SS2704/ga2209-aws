@@ -1,4 +1,4 @@
-ssh -i /Volumes/Work/0__DS/1__GA_DS/0__DeepLearning/ml_deployment/classroom-session/key-value\ pair/ga2209.pem ubuntu@18.216.155.114
+FROM ubuntu
 
 RUN sudo apt-get update
 
