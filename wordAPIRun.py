@@ -28,4 +28,4 @@ def last_words_api():
 
 
 if __name__ == "__main__":
-    preprocess_app.run(host='0.0.0.0', port=8000)
+    preprocess_app.run(host='0.0.0.0', port=80, debug=True)
