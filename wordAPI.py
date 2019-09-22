@@ -26,7 +26,7 @@ class WordPreprocess:
         word_tokens = [word for word in word_tokens if len(word) > 2]
         text_df = pd.DataFrame({'words': word_tokens})
 
-        count_dict = dict(text_df.value_counts())
+        count_dict = dict(text_df.words.value_counts())
         least_words = list(count_dict.values())[-self.num_of_words]
         return least_words
 
